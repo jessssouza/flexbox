@@ -1,0 +1,88 @@
+.html,
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.containerhorizontal {
+    display: flex;
+    min-height: 70vh;
+}
+
+.main,
+.header,
+.footer,
+.sidebar {
+    flex: 1;
+    margin: 1%;
+    border-radius: 7px;
+    color: white;
+}
+
+.sidebar {
+    background-color: red;
+    max-width: 15%;
+    box-shadow: 0 4px 8px rgb(146, 13, 13);
+    padding: 2%;
+}
+
+.main {
+    background-color: green;
+    max-width: 85%;
+    box-shadow: 0 4px 8px rgb(22, 88, 57);
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin: 2% 0 0 2%;
+}
+
+.textbold {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.mainitens {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.item {
+    margin: 2%;
+    background-color: rgb(45, 141, 96);
+    min-width: 20%;
+    min-height: 45%;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    box-shadow: 0 4px 8px rgb(26, 80, 55);
+    border-radius: 7px;
+}
+
+.footer,
+.header {
+    min-height: 10%;
+    display: grid;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.header {
+    background-color: rgb(38, 123, 250);
+    box-shadow: 0 4px 8px blue;
+}
+
+.footer {
+    background-color: blue;
+    box-shadow: 0 4px 8px cornflowerblue;
+}
